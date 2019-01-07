@@ -102,6 +102,8 @@ body {
 }
 
 
+/* Header */
+
 .header {
     background-color: #bd5d38;
     width: 100%;
@@ -121,16 +123,19 @@ body {
 #menuIcon {
     color: #ffffff;
     font-size: 25px;
+    border: 1px solid #fff;
+    padding: 4px 9px;
 }
 
 .header-text {
-    color: rgba(255,255,255,.5);
+    color: #c7c9cc;
     font-size: 20px;
     text-decoration: none;
     font-weight: bolder;
     padding: 3px;
     text-align: left;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .header-text:hover {
@@ -156,7 +161,7 @@ body {
 }
 
 .greyColor {
-    color: rgba(255,255,255,.5);
+    color: #868e96;
 }
 
 .orangeColor {
@@ -164,12 +169,75 @@ body {
 }
 
 .main {
-    margin-top: 50px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+/* About */
+
+.links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.icons {
+    background: #495057;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.icons:hover {
+    background: #bd5d38;
+}
+
+.about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed';
+    color: #495057;
+}
+
+.pharagraphs {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.address {
+    font-size: 18px;
+    width: 80%;
+    line-height: 1.4;
+}
+
+.social-icons {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.displayBlock {
+    display: block;
 }
 
 
 
-@media screen and (min-width: 1000px) { 
+
+
+
+@media screen and (min-width: 1000px) {
+    /* Header */ 
     #menuIcon {
         display: none;
     }
@@ -214,11 +282,32 @@ body {
 
     .main {
         margin-top: 0px;
-        margin-left: 24vw;
+        margin-left: 26vw;
+        width: 73vw;
     }
 
+    /* About */
+
     .about {
-        width: 73vw;
-        heigt: 100vh;
+        width: 90%;
+        height: 100vh;
+        justify-content: space-evenly;
+    }
+
+    .displayBlock {
+        display: inline;
+    }
+
+    .social-icons {
+        width: 40%;
+        display: block;
+    }
+
+    .address {
+        font-size: 15px;
+    }
+
+    .links {
+        margin-right: 20px;
     }
 }
