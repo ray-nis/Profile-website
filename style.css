@@ -231,6 +231,47 @@ body {
     display: block;
 }
 
+.current-menu-item {
+    color: #fff;
+}
+
+/* Experience section */
+
+.experience {
+    width: 90%;
+}
+
+.categoryTitle {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed';
+    color: #343a40;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.titles {
+    color: #343a40;
+    font-size: 30px;
+    font-family: 'Saira Extra Condensed';
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.undertitles {
+    font-size: 22px;
+    font-family: 'Saira Extra Condensed';
+    margin-bottom: 20px;
+}
+
+.dates {
+    margin-bottom: 20px;
+}
+
+.jobInfo {
+    margin-bottom: 30px;
+}
 
 
 
@@ -309,5 +350,25 @@ body {
 
     .links {
         margin-right: 20px;
+    }
+
+    /* Experience section */
+
+    .pwidth {
+        width: 70%;
+    }
+
+    .pharagraphs {
+        font-size: 18px;
+    }
+
+    .dates {
+        margin-bottom: 0px;
+        float: right;
+        font-size: 15px;
+    }
+
+    .jobInfo {
+        margin-bottom: 70px;
     }
 }
