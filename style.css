@@ -287,6 +287,13 @@ body {
     margin-bottom: 40px;
 }
 
+.skillsI:hover {
+    color: #bd5d38;
+}
+
+.interests p {
+    width: 80%;
+}
 
 
 
