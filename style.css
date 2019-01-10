@@ -246,7 +246,7 @@ body {
     text-transform: uppercase;
     font-family: 'Saira Extra Condensed';
     color: #343a40;
-    margin-top: 120px;
+    margin-top: 200px;
     margin-bottom: 40px;
     letter-spacing: 1px;
 }
@@ -295,6 +295,13 @@ body {
     width: 80%;
 }
 
+.yellowColor {
+    color: #f7d84f;
+}
+
+#awards {
+    margin-bottom: 200px;
+}
 
 
 @media screen and (min-width: 1000px) {
