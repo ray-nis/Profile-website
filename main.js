@@ -58,11 +58,6 @@ $( document ).ready(function() {
             $("#m4").removeClass("current-menu-item");
             $("#m5").removeClass("current-menu-item");
         }
-
-        console.log("scr =" + Scroll);
-        console.log("awards =" + awardsSection)
-
-        
     });
 });
 
